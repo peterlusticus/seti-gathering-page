@@ -1173,3 +1173,15 @@ input {
   font-size: 1em !important;
   padding-top: 10px !important;
 }
+
+.pretix-widget-pricebox-tax{
+ display: none !important;
+}
+
+.imprint-link{
+  font-size: 7pt !important;
+}
+
+.imprint{
+  font-size: small !important;
+}
