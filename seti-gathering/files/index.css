@@ -1122,6 +1122,19 @@ input {
 
 }
 
+@media screen and (min-width: 0px){
+  #innen>div>div>div.pretix-widget-event-form>form {
+    margin: 1rem auto 1rem auto;
+    width: 99%;
+    font-size: 0.9em;
+    text-align: left;
+    margin: .6rem auto .6rem auto;
+  }
+  .pretix-widget{
+    padding: 0;
+  }
+}
+
 .pretix-widget-item-title-and-description {
   padding-bottom: 1em !important;
 }
@@ -1207,4 +1220,8 @@ input {
 #coordinates{
   text-decoration: underline;
   word-break: break-all;
+}
+
+.pretix-widget .pretix-widget-attribution{
+  font-size: 9px !important;
 }
