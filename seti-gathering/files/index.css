@@ -3,20 +3,14 @@
   max-height: 0.01px;
   border-style: none;
   cursor: context-menu;
-  color: #2B3A3B;
-  background-color: #37433f;
+  color: #4d4056;
+  background-color: #1d1920;
   box-shadow: none;
 
 }
 
 /* //////////// STANDARDS ////////////// */
 * {
-  user-drag: none;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   margin: 0;
   padding: 0;
   color: #DDD8B9;
@@ -46,7 +40,7 @@
   margin: -60px 0 0 -60px;
   border: 16px solid #0b161e;
   border-radius: 50%;
-  border-top: 8px solid #2B3A3B;
+  border-top: 8px solid #4d4056;
   border-bottom: 32px solid #4B5A5B;
   -webkit-animation: spin 1.1s ease-in-out infinite;
   animation: spin 1.1s ease-in-out infinite;
@@ -55,19 +49,19 @@
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
-    border-top: 4px solid #2B3A3B;
+    border-top: 4px solid #4d4056;
     border-bottom: 32px solid #4B5A5B;
   }
 
   50% {
     -webkit-transform: rotate(180deg);
     border-top: 32px solid #4B5A5B;
-    border-bottom: 4px solid #2B3A3B;
+    border-bottom: 4px solid #4d4056;
   }
 
   100% {
     -webkit-transform: rotate(360deg);
-    border-top: 4px solid #2B3A3B;
+    border-top: 4px solid #4d4056;
     border-bottom: 32px solid #4B5A5B;
   }
 }
@@ -75,19 +69,19 @@
 @keyframes spin {
   0% {
     transform: rotate(0deg);
-    border-top: 4px solid #2B3A3B;
+    border-top: 4px solid #4d4056;
     border-bottom: 32px solid #4B5A5B;
   }
 
   50% {
     transform: rotate(180deg);
     border-top: 32px solid #4B5A5B;
-    border-bottom: 4px solid #2B3A3B;
+    border-bottom: 4px solid #4d4056;
   }
 
   100% {
     transform: rotate(360deg);
-    border-top: 4px solid #2B3A3B;
+    border-top: 4px solid #4d4056;
     border-bottom: 32px solid #4B5A5B;
   }
 }
@@ -132,7 +126,7 @@ body {
   .navbar {
     width: 100%;
     height: 5rem;
-    background-image: linear-gradient(to right, #192020 30%, #000, #192020 70%);
+    background-image: linear-gradient(to right, #1e1920 30%, #000, #1e1920 70%);
     border-bottom-width: medium;
     border-bottom-style: solid;
     border-color: #000;
@@ -148,7 +142,7 @@ body {
   .navbar {
     width: 100%;
     height: 6rem;
-    background-image: linear-gradient(to right, #192020 30%, #000, #192020 70%);
+    background-image: linear-gradient(to right, #1e1920 30%, #000, #1e1920 70%);
     border-bottom-width: medium;
     border-bottom-style: solid;
     border-color: #000;
@@ -265,7 +259,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #1B282DBC;
+  background-color: #16101bBC;
 }
 
 /*////////////////////// FIREFOXSCROLLBAR ////////////////////// */
@@ -273,7 +267,7 @@ body {
   .scroller {
     overflow-y: scroll;
     overflow-x: hidden;
-    scrollbar-color: #2B3A3B black;
+    scrollbar-color: #4d4056 black;
     scrollbar-width: 1rem;
   }
 
@@ -289,7 +283,7 @@ body {
     overscroll-behavior: none;
 
     border: thin solid black;
-    background: #192020;
+    background: #1d1920;
     background-image: url("./img/experiment2.svg");
     background-size: 370%;
     margin: 0rem 0rem 0rem 0rem;
@@ -307,7 +301,7 @@ body {
     overscroll-behavior: none;
 
     border: thin solid black;
-    background: #192020;
+    background: #1e1920;
     background-image: url("./img/experiment2.svg");
     background-size: 370%;
     margin: 0rem 0rem 0rem 0rem;
@@ -334,13 +328,13 @@ body {
 
     /* postion:fixed; */
     border: thin solid black;
-    background: #1B282D;
+    background: #16101b;
     margin: 3rem .5rem 0rem 1rem;
     padding: 0.5rem .8rem;
     width: calc(100% - 2rem);
     min-height: calc(100vh - 0rem);
 
-    background-image: linear-gradient(#1B282D, #19252D, #1B282D);
+    background-image: linear-gradient(#16101b, #19252D, #16101b);
     background-image: url("./img/experiment2.svg");
     background-size: 130%;
     background-position: center;
@@ -354,12 +348,12 @@ body {
     overscroll-behavior: none;
     /* postion:fixed; */
     border: thin solid black;
-    background: #1B282D;
+    background: #16101b;
     margin: 3rem 0.5rem 0rem 1rem;
     padding: 0.5rem 2rem;
     width: calc(100% - 2rem);
     min-height: calc(100vh - 0rem);
-    background-image: linear-gradient(#1B282D, #19252D, #1B282D);
+    background-image: linear-gradient(#16101b, #19252D, #16101b);
     background-image: url("./img/experiment2.svg");
     background-size: 130%;
     background-position: center;
@@ -374,12 +368,12 @@ body {
     overscroll-behavior: none;
     border: thin solid black;
     border-bottom: hidden;
-    background: #1B282D;
+    background: #16101b;
     margin: 3rem 1rem 0rem 1rem;
     padding: 0.5rem 4rem;
     width: calc(100% - 2rem);
     min-height: calc(100vh - 0rem);
-    background-image: linear-gradient(#1B282D, #19252D, #1B282D);
+    background-image: linear-gradient(#16101b, #19252D, #16101b);
     background-image: url("./img/experiment2.svg");
     background-size: 130%;
     background-position: center;
@@ -397,7 +391,7 @@ body {
     max-width: 720px;
     padding: 1rem 0.4rem;
     margin: 1rem auto;
-    background: #2B3A3B;
+    background: #4d4056;
     background-image: url("./img/experiment.svg");
     background-size: 100%;
     background-repeat: repeat-y;
@@ -411,7 +405,7 @@ body {
     max-width: 720px;
     padding: 1rem;
     margin: 1rem auto;
-    background: #2B3A3B;
+    background: #4d4056;
     background-image: url("./img/experiment.svg");
     background-size: 100%;
     background-repeat: repeat-y;
@@ -647,7 +641,7 @@ body {
     letter-spacing: .1rem;
     padding: 0.3rem;
     font-size: .8rem;
-    background: #37433F;
+    background: #1d1920;
   }
 }
 
@@ -663,7 +657,7 @@ body {
     letter-spacing: .1rem;
     padding: 0.3rem;
     font-size: .9rem;
-    background: #37433F;
+    background: #1d1920;
   }
 }
 
@@ -678,7 +672,7 @@ body {
     letter-spacing: .1rem;
     padding: 0.3rem;
     font-size: 1.2rem;
-    background: #37433F;
+    background: #1d1920;
 
   }
 
@@ -701,7 +695,7 @@ body {
     letter-spacing: .1rem;
     padding: 0.3rem;
     font-size: 1.5rem;
-    background: #37433F;
+    background: #1d1920;
   }
 
   #datum {
@@ -732,7 +726,7 @@ p {
     display: flex;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: .6rem auto .6rem auto;
     padding: 0.5rem;
     width: 99%;
@@ -740,7 +734,7 @@ p {
     text-align: justify;
     font-size: .7rem;
     line-height: 1.2rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -751,7 +745,7 @@ p {
     display: flex;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: 1rem auto 1rem auto;
     padding: 0.8rem;
     width: 97%;
@@ -759,7 +753,7 @@ p {
     text-align: justify;
     font-size: 1rem;
     line-height: 1.4rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -771,7 +765,7 @@ p {
     display: flex;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: 1rem auto 1rem auto;
     padding: 1rem;
     width: 80%;
@@ -779,7 +773,7 @@ p {
     text-align: justify;
     font-size: 1.3rem;
     line-height: 2rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
 
   }
@@ -790,10 +784,10 @@ p {
   form {
     width: 99%;
     margin: auto;
-    background-color: #37433F;
+    background-color: #1d1920;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     font-size: .6rem;
     letter-spacing: .007rem;
   }
@@ -803,10 +797,10 @@ p {
   form {
     width: 97%;
     margin: auto;
-    background-color: #37433F;
+    background-color: #1d1920;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     font-size: .6rem;
   }
 }
@@ -815,10 +809,10 @@ p {
   form {
     width: 97%;
     margin: auto;
-    background-color: #37433F;
+    background-color: #1d1920;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     font-size: .6rem;
   }
 }
@@ -827,10 +821,10 @@ p {
   form {
     width: 80%;
     margin: auto;
-    background-color: #37433F;
+    background-color: #1d1920;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     font-size: .7rem;
   }
 }
@@ -844,7 +838,7 @@ input {
   border: thin solid #000;
   box-shadow: 0px 0px 1px black;
   margin: 0.55rem 0 0.55rem 0;
-  background-color: #323D3A;
+  background-color: #2d2531;
   font-family: 'Ryder Dirty';
 }
 
@@ -879,7 +873,7 @@ input {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #323D3A;
+  background-color: #2d2531;
   border: thin solid #000;
   box-shadow: 0px 0px 1px black;
   border-radius: 0;
@@ -889,7 +883,7 @@ input {
 }
 
 .formbutton:hover {
-  background-color: #202624;
+  background-color: #433749;
 }
 
 /*/// Lineuppopup /// */
@@ -898,7 +892,7 @@ input {
     display: block;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: .6rem auto .6rem auto;
     padding: 0.5rem;
     width: 99%;
@@ -906,7 +900,7 @@ input {
     text-align: justify;
     font-size: .7rem;
     line-height: 1.2rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -916,7 +910,7 @@ input {
     display: block;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: 1rem auto 1rem auto;
     padding: 0.8rem;
     width: 97%;
@@ -924,7 +918,7 @@ input {
     text-align: justify;
     font-size: 1rem;
     line-height: 1.4rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -934,7 +928,7 @@ input {
     display: block;
     border: thin solid black;
     box-shadow: 0px 0px 1px black;
-    background-color: #37433F;
+    background-color: #1d1920;
     margin: 1rem auto 1rem auto;
     padding: 1rem;
     width: 80%;
@@ -942,7 +936,7 @@ input {
     text-align: justify;
     font-size: 1.3rem;
     line-height: 2rem;
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -954,7 +948,7 @@ input {
 
 @media screen and (min-width:0px) {
   .Artistname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: .9rem;
     color: #B1B19A;
   }
@@ -965,7 +959,7 @@ input {
   }
 
   .Labelname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 0.6rem;
     color: #B1B19A;
   }
@@ -977,7 +971,7 @@ input {
 
 @media screen and (min-width:390px) {
   .Artistname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1.2rem;
     color: #B1B19A;
   }
@@ -988,7 +982,7 @@ input {
   }
 
   .Labelname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 0.9rem;
     color: #B1B19A;
   }
@@ -1000,7 +994,7 @@ input {
 
 @media screen and (min-width:700px) {
   .Artistname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1.6rem;
     color: #B1B19A;
   }
@@ -1011,7 +1005,7 @@ input {
   }
 
   .Labelname {
-    font-family: 'para';
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1rem;
     color: #B1B19A;
   }
@@ -1025,7 +1019,7 @@ input {
 @media screen and (min-width:0px) {
   .menutab {
     display: block;
-    background: #323D3A;
+    background: #2d2531;
     background-image: url("./img/experiment4.svg");
     background-position: center;
     background-size: 100%;
@@ -1042,7 +1036,7 @@ input {
 @media screen and (min-width:400px) {
   .menutab {
     display: block;
-    background: #323D3A;
+    background: #2d2531;
     background-image: url("./img/experiment4.svg");
     background-position: center;
     background-size: 100%;
@@ -1062,6 +1056,16 @@ input {
 
 }
 
+#campingbox {
+  transition: background-color .3s;
+  transition: background-position .3s;
+}
+
+#awarenessbox {
+  transition: background-color .3s;
+  transition: background-position .3s;
+}
+
 #ticketbox {
   transition: background-color .3s;
   transition: background-position .3s;
@@ -1074,8 +1078,20 @@ input {
 
 }
 
+#awarenessbox:hover {
+  background-color: #433749;
+  background-position: bottom;
+  cursor: pointer;
+}
+
+#campingbox:hover {
+  background-color: #433749;
+  background-position: bottom;
+  cursor: pointer;
+}
+
 #locationbox:hover {
-  background-color: #202624;
+  background-color: #433749;
   background-position: bottom;
   cursor: pointer;
 }
@@ -1085,23 +1101,29 @@ input {
 }
 
 #ticketbox:hover {
-  background-color: #202624;
+  background-color: #433749;
   cursor: pointer;
   background-position: bottom;
 
 }
 
 #lineupbox:hover {
-  background-color: #202624;
+  background-color: #433749;
   background-position: bottom;
   cursor: pointer;
 }
 
 /*customize pretix widget*/
-#timepop>div>div>div.pretix-widget-event-form>form {
-  margin: 0;
-  width: auto;
-  font-size: 1em;
+#innen>div>div>div.pretix-widget-event-form>form {
+  margin: 1rem auto 1rem auto;
+  width: 80%;
+  font-size: 0.9em;
+  text-align: left;
+
+}
+
+.pretix-widget-item-title-and-description {
+  padding-bottom: 1em !important;
 }
 
 .pretix-widget-category-name {
@@ -1129,10 +1151,6 @@ input {
   padding: 0 !important;
 }
 
-#timepop {
-  padding: .2rem !important;
-}
-
 .pretix-widget-action {
   margin-bottom: 1em !important;
 }
@@ -1156,7 +1174,7 @@ input {
   display: flex !important;
   justify-content: center !important;
   width: 100%;
-  background-color: #323D3A !important;
+  background-color: #2d2531 !important;
   border: thin solid #000 !important;
   box-shadow: 0px 0px 1px black !important;
   border-radius: 0 !important;
@@ -1174,14 +1192,18 @@ input {
   padding-top: 10px !important;
 }
 
-.pretix-widget-pricebox-tax{
- display: none !important;
+.pretix-widget-pricebox-tax {
+  display: none !important;
 }
 
-.imprint-link{
+.imprint-link {
   font-size: 7pt !important;
 }
 
-.imprint{
+.imprint {
   font-size: small !important;
+}
+
+#coordinates{
+  text-decoration: underline;
 }
