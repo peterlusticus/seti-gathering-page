@@ -99,6 +99,12 @@
 }
 
 @font-face {
+  font-family: mono;
+  src:
+    url('./fonts/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
   font-family: para;
   src: url('./fonts/memento_griseo_ruber.ttf');
 }
@@ -730,12 +736,11 @@ p {
     margin: .6rem auto .6rem auto;
     padding: 0.5rem;
     width: 99%;
-    letter-spacing: .08rem;
+    letter-spacing: .02rem;
     text-align: justify;
     font-size: .7rem;
     line-height: 1.2rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
-
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
   }
 }
 
@@ -753,7 +758,7 @@ p {
     text-align: justify;
     font-size: 1rem;
     line-height: 1.4rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -773,7 +778,7 @@ p {
     text-align: justify;
     font-size: 1.3rem;
     line-height: 2rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
 
   }
@@ -896,11 +901,11 @@ input {
     margin: .6rem auto .6rem auto;
     padding: 0.5rem;
     width: 99%;
-    letter-spacing: .08rem;
+    letter-spacing: .02rem;
     text-align: justify;
     font-size: .7rem;
     line-height: 1.2rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -918,7 +923,7 @@ input {
     text-align: justify;
     font-size: 1rem;
     line-height: 1.4rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 
   }
 }
@@ -936,8 +941,7 @@ input {
     text-align: justify;
     font-size: 1.3rem;
     line-height: 2rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
-
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
   }
 }
 
@@ -948,7 +952,7 @@ input {
 
 @media screen and (min-width:0px) {
   .Artistname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: .9rem;
     color: #B1B19A;
   }
@@ -959,7 +963,7 @@ input {
   }
 
   .Labelname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 0.6rem;
     color: #B1B19A;
   }
@@ -971,7 +975,7 @@ input {
 
 @media screen and (min-width:390px) {
   .Artistname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1.2rem;
     color: #B1B19A;
   }
@@ -982,7 +986,7 @@ input {
   }
 
   .Labelname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 0.9rem;
     color: #B1B19A;
   }
@@ -994,7 +998,7 @@ input {
 
 @media screen and (min-width:700px) {
   .Artistname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1.6rem;
     color: #B1B19A;
   }
@@ -1005,7 +1009,7 @@ input {
   }
 
   .Labelname {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
+    font-family: 'mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
     font-size: 1rem;
     color: #B1B19A;
   }
@@ -1114,24 +1118,34 @@ input {
 }
 
 /*customize pretix widget*/
-#innen>div>div>div.pretix-widget-event-form>form {
-  margin: 1rem auto 1rem auto;
-  width: 80%;
-  font-size: 0.9em;
-  text-align: left;
 
+
+@media screen and (min-width: 0px) {
+  #innen>div>div>div.pretix-widget-event-form>form {
+    width: 99%;
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .pretix-widget {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 390px){
+  #innen>div>div>div.pretix-widget-event-form>form {
+    width: 97%;
+    font-size: 0.8em;
+    text-align: left;
+  }
 }
 
-@media screen and (min-width: 0px){
+@media screen and (min-width: 700px) {
   #innen>div>div>div.pretix-widget-event-form>form {
     margin: 1rem auto 1rem auto;
-    width: 99%;
-    font-size: 0.9em;
+    width: 80%;
+    font-size: 0.8em;
     text-align: left;
-    margin: .6rem auto .6rem auto;
-  }
-  .pretix-widget{
-    padding: 0;
+
   }
 }
 
@@ -1209,6 +1223,10 @@ input {
   display: none !important;
 }
 
+.pretix-widget {
+  padding: 0 !important;
+}
+
 .imprint-link {
   font-size: 7pt !important;
 }
@@ -1217,11 +1235,16 @@ input {
   font-size: small !important;
 }
 
-#coordinates{
+#coordinates {
   text-decoration: underline;
   word-break: break-all;
 }
 
-.pretix-widget .pretix-widget-attribution{
-  font-size: 9px !important;
+.pretix-widget .pretix-widget-attribution {
+  font-size: 8px !important;
+}
+
+.fat-text {
+  font-weight: 600;
+  letter-spacing: 0.08em;
 }
