@@ -736,6 +736,10 @@ p {
     margin: .6rem auto .6rem auto;
     padding: 0.5rem;
     width: 99%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     letter-spacing: .02rem;
     text-align: justify;
     font-size: .7rem;
@@ -754,6 +758,10 @@ p {
     margin: 1rem auto 1rem auto;
     padding: 0.8rem;
     width: 97%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     letter-spacing: .1rem;
     text-align: justify;
     font-size: 1rem;
@@ -774,6 +782,10 @@ p {
     margin: 1rem auto 1rem auto;
     padding: 1rem;
     width: 80%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     letter-spacing: .1rem;
     text-align: justify;
     font-size: 1.3rem;
